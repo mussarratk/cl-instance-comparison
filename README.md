@@ -84,3 +84,33 @@ Cloud instances empower organizations with flexibility, scalability, and cost sa
 | **Custom Connectors** | Custom-built solutions tailored to specific business needs, integrating proprietary systems | Specialized integrations for unique data sources, internal tool connectivity | Addresses niche business requirements, provides full control over data flow | Requires significant development effort, maintenance overhead, security risks | **Custom Python/Flask API for internal system integration, Node.js API Gateway, Custom ETL Pipeline in Apache Airflow** |
 
 
+### Data Integration Layer - Security and Technical Architecture
+
+# Comparative Table: Secure Data Integration
+
+| **Category**                     | **Description**                                                         | **Example**                                                                 |
+|-----------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Data Integration**              | Combining data from multiple sources into a unified view.               | Merging online and offline retail sales data for better business insights.  |
+| **Importance of Secure Integration** | Protects sensitive data, ensures compliance, prevents breaches, and maintains integrity. | Encrypting customer financial data to comply with GDPR.                     |
+| **Security Challenges**           | Issues faced while integrating data securely.                           |                                                                             |
+| Data Leakage                      | Exposure of sensitive data during integration.                          | Customer credit card details being exposed during system migration.         |
+| Complex Access Control             | Managing permissions across multiple sources and stakeholders.          | Different departments requiring varied levels of access to inventory data.  |
+| Encryption Requirement             | Ensuring data remains secure during transit and at rest.                | Encrypting order details while transferring data between warehouses.        |
+| Authentication & Authorization     | Verifying user identities and managing data access securely.            | Using multi-factor authentication (MFA) to restrict access to HR data.      |
+| **Key Layers of Technical Architecture** | Different layers ensuring secure data integration.                     |                                                                             |
+| Data Source Layer                 | Identifies and catalogs data sources; extracts data securely.           | Using ETL tools like Talend or Informatica to pull data from sales systems. |
+| Data Transport Layer              | Ensures secure transmission via HTTPS, FTPS, TLS, etc.                  | Using TLS encryption while sending purchase records between branches.       |
+| Data Storage Layer                | Secures data at rest using encryption and access controls.              | Encrypting employee records stored in a cloud-based database.               |
+| Data Integration Layer            | Converts data into a unified format while ensuring security.            | Transforming supplier data into a standard format without exposing prices.  |
+| Data Access Layer                 | Implements RBAC and maintains audit logs.                               | Allowing only senior managers to access financial reports.                  |
+| Data Governance Layer             | Defines policies and ensures compliance with regulations.               | Enforcing GDPR policies in customer data processing.                        |
+| **Best Practices for Secure Data Integration** | Methods to enhance security.                                       |                                                                             |
+| Advanced Encryption Standards     | Protects data at rest and in transit.                                  | AES-256 encryption used for storing confidential records.                   |
+| Regular Security Audits           | Identifies vulnerabilities and strengthens security.                    | Conducting penetration testing on integrated databases.                     |
+| Access Controls (MFA, RBAC)       | Restricts unauthorized access based on roles.                          | Using MFA for admin access to sensitive datasets.                           |
+| Data Masking                      | Hides sensitive information during integration.                         | Masking credit card numbers in customer service logs.                       |
+| API Security                      | Ensures secure data exchange between integrated systems.                | Using OAuth authentication for API-based data transfers.                    |
+| Employee Training                 | Educates staff on security risks and best practices.                    | Conducting cybersecurity awareness workshops for employees.                 |
+
+
+
