@@ -112,6 +112,7 @@ Cloud instances empower organizations with flexibility, scalability, and cost sa
 | API Security                      | Ensures secure data exchange between integrated systems.                | Using OAuth authentication for API-based data transfers.                    |
 | Employee Training                 | Educates staff on security risks and best practices.                    | Conducting cybersecurity awareness workshops for employees.                 |
 
-![image](https://github.com/user-attachments/assets/017b3c7e-27d1-4c46-b441-837f2680ca19)
+![image](https://github.com/user-attachments/assets/017b3c7e-27d1-4c46-b441-837f2680ca19)  ![image](https://github.com/user-attachments/assets/66376c2c-c2b5-46c1-8fa6-feb42dc74ffe)
+
 
 
