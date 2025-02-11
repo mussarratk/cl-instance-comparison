@@ -112,7 +112,10 @@ Cloud instances empower organizations with flexibility, scalability, and cost sa
 | API Security                      | Ensures secure data exchange between integrated systems.                | Using OAuth authentication for API-based data transfers.                    |
 | Employee Training                 | Educates staff on security risks and best practices.                    | Conducting cybersecurity awareness workshops for employees.                 |
 
-![image](https://github.com/user-attachments/assets/017b3c7e-27d1-4c46-b441-837f2680ca19)  ![image](https://github.com/user-attachments/assets/66376c2c-c2b5-46c1-8fa6-feb42dc74ffe)
+![image](https://github.com/user-attachments/assets/017b3c7e-27d1-4c46-b441-837f2680ca19)  ![image](https://github.com/user-attachments/assets/66376c2c-c2b5-46c1-8fa6-feb42dc74ffe) ![image](https://github.com/user-attachments/assets/5a72f939-eebf-4d50-8ca3-e6853df40a3a) ![image](https://github.com/user-attachments/assets/f30c7027-b2a9-437e-b4b3-9ca074750b1a) ![image](https://github.com/user-attachments/assets/0e0e8319-88a2-4645-90f1-814ecaa17d69) https://www.coursera.org/learn/data-integration-storage-migration-strategies/lecture/3y617/data-integration-operations-management
+
+
+
 
 
 
