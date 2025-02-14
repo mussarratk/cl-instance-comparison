@@ -115,6 +115,34 @@ Cloud instances empower organizations with flexibility, scalability, and cost sa
 ![image](https://github.com/user-attachments/assets/017b3c7e-27d1-4c46-b441-837f2680ca19)  ![image](https://github.com/user-attachments/assets/66376c2c-c2b5-46c1-8fa6-feb42dc74ffe) ![image](https://github.com/user-attachments/assets/5a72f939-eebf-4d50-8ca3-e6853df40a3a) ![image](https://github.com/user-attachments/assets/f30c7027-b2a9-437e-b4b3-9ca074750b1a) ![image](https://github.com/user-attachments/assets/0e0e8319-88a2-4645-90f1-814ecaa17d69) https://www.coursera.org/learn/data-integration-storage-migration-strategies/lecture/3y617/data-integration-operations-management
 
 
+| Feature | Relational Databases | Non-Relational Databases | Omni-Channel Relevance |
+|---|---|---|---|
+| **Data Model** | Structured data organized into tables with rows and columns | Flexible data models (document, key-value, graph, columnar) | Supports diverse data formats from various channels |
+| **Schema** | Predefined, rigid schema enforced | Schema-less or flexible schema | Flexibility crucial for evolving customer data and new channels |
+| **Data Consistency** | ACID properties (Atomicity, Consistency, Isolation, Durability) guarantee data integrity | BASE properties (Basically Available, Soft state, Eventually consistent) offer more flexibility, but eventual consistency | ACID important for transactional data (orders, payments); BASE suitable for interaction data |
+| **Scalability** | Typically scaled vertically (increase resources on a single server) | Scaled horizontally (add more servers to a cluster) | Horizontal scalability essential for handling growing customer data and traffic |
+| **Query Language** | Standardized SQL (Structured Query Language) | Varying query languages, often specific to the database (some support SQL-like queries) | Query flexibility needed for analyzing customer behavior across channels |
+| **Data Relationships** | Relationships between tables defined using foreign keys | Relationships can be embedded within documents or handled through graph structures | Managing customer relationships and interactions across channels |
+| **Use Cases** | Applications requiring strong data consistency, complex transactions, and structured data (e.g., financial systems, ERP) | Applications with flexible data requirements, high volume data ingestion, and need for horizontal scalability (e.g., IoT, social media, e-commerce) | Supporting 360-degree customer view, personalization, real-time insights |
+| **Examples** | MySQL, PostgreSQL, Oracle, Microsoft SQL Server | MongoDB (document), Cassandra (column family), Redis (key-value), Neo4j (graph), Couchbase (document) |  |
+| **Key Characteristics (from transcript)** |  |  |  |
+| **Data Structure** | Fixed format, rows, and columns | Variable, entities in the same collection can have different fields | Adapts to varying data structures from different channels |
+| **Data Ingestion** | Can be slower due to schema enforcement | Fast, designed for rapid capture of data | Handles high-volume data ingestion from multiple channels |
+| **Data Description** | Schema defines the data structure | Data is self-describing, fields are labeled |  |
+| **Querying** | Efficient for complex queries and joins | Optimized for key-based lookups and range queries, indexing available for more complex queries | Supports complex queries for customer segmentation and analysis |
+| **Suitable Scenarios** |  |  |  |
+| **IoT and Telematics** | Not ideal for rapid ingestion of high-volume data | Highly suitable for handling frequent bursts of data | Ingesting sensor data and real-time event streams |
+| **Retail and Marketing** | Can be used for structured data like product catalogs | Well-suited for event sourcing, e-commerce platforms, and personalized experiences | Managing customer profiles, purchase history, and personalized offers |
+| **Gaming** | Can be used for structured player data | Ideal for in-game stats, social integration, and leaderboards, requiring low latency | Tracking player behavior and interactions across platforms |
+| **Web and Mobile Applications** | Can be used for structured user data | Well-suited for social interactions, personalization, and integration with third-party services | Powering personalized web and mobile experiences |
+| **NoSQL Categories** | N/A | Key-value stores, Document databases, Column family databases, Graph databases |  |
+| **Opaque vs. Transparent** | N/A | Key-value stores have opaque values, Document databases have transparent documents |  |
+| **Omni-Channel Use Cases** | N/A | N/A | Unified customer profiles, personalized recommendations, real-time offers, seamless cross-channel experiences |
+| **Relational in Omni-Channel** | Strong for transactional data (orders, payments), ensuring consistency |  | Managing order fulfillment, inventory, and financial data |
+| **Non-Relational in Omni-Channel** |  | Strong for interaction data (browsing history, social media), enabling personalization | Storing customer profiles, website activity, and real-time events |
+| **Hybrid Approach** | Often used in conjunction with non-relational databases | Often used in conjunction with relational databases | Common for balancing transactional consistency with data flexibility |
+
+
 
 
 
